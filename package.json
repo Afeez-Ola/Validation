@@ -1,0 +1,32 @@
+{
+    "name": "password",
+    "version": "1.0.0",
+    "description": "mysql sample",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "me",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "bootstrap": "^4.4.1",
+        "connect-flash": "^0.1.1",
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "express-session": "^1.17.0",
+        "layout": "^2.2.0",
+        "mongoose": "^5.9.2",
+        "mysql": "^2.18.1",
+        "mysqljs": "0.0.2-security",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "password": "^0.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
